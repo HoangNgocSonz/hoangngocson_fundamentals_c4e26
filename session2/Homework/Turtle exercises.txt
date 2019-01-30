@@ -1,0 +1,52 @@
+c1:
+   from turtle import*
+
+   color("red")
+   speed(0)
+
+   for i in range(4):
+       if i==0: a=20
+       if i==1: a=110
+       if i==2: a=-70
+       if i==3: a=200
+       left(a)
+       fd(100)
+       right(40)
+       fd(100)
+       right(140)
+       fd(100)
+       right(40)
+       fd(100)
+       home()
+
+   mainloop()
+
+c2: 
+   from turtle import*
+
+   color("blue")
+
+   speed(5)
+
+   for i in range(3):
+       fd(100)
+       left(120)
+   color("red")
+   for i in range(4):
+       fd(100)
+       left(90)
+
+   home()
+   color("blue")
+   for i in range(5):
+    fd(100)
+    left(72)
+home()
+
+seth(0)
+color("red")
+for i in range(6):
+    fd(100)
+    left(60)
+
+mainloop()

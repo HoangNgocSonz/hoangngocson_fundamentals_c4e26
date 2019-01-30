@@ -1,0 +1,28 @@
+c1:
+   Boolean values are the two constant objects False and True
+   eg1: 1>2
+   eg2: 2>3
+   eg3: 2==2
+
+c2:
+   A flowchart is a type of diagram that represents an algorithm, workflow or process. The flowchart shows the steps as boxes
+of various kinds, and their order by connecting the boxes with arrows. ... Flowcharts are used in analyzing, designing,
+documenting or managing a process or program in various fields
+
+c3:
+nested conditionals: a branch of conditional statement contains another conditional statement
+code:
+a = int (input("your weight ? "))
+if (a>50):
+    if(a<70):
+        print ("good")
+    else:
+        print ("maybe you are fat")
+else:
+    print ("hmm")
+
+
+
+
+
+

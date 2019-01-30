@@ -1,0 +1,74 @@
+C1:
+a= int (input("chi?u cao (cm) ? "))
+b= int (input("cân n?ng (kg) ? "))
+
+c=b/(a*a)  *10000
+if c<16:
+    print ("Severely underweight")
+elif c<18.5:
+    print ("Underweight ")
+elif c<25:
+    print ("Normal")
+elif c<30:
+    print ("Overweight")
+else:
+    print("Obese")
+
+
+
+C2:
+n= int (input())
+a=1
+for i in range(2,n+1):
+    a=a*i
+
+print (a)
+
+
+
+C3:
+# thêm end=""
+#eg:
+print("holadora ",end="")
+print("madara")
+---> in ra: holadora madara
+
+
+
+C4:
+a)
+for i in range(20):
+    print ("*",end=" ")
+
+b)
+n=int (input())
+for i in range(n):
+    print ("*",end=" ")
+
+c)
+for i in range(4):
+    print ("x*",end=" ")
+print("x")
+
+d)
+n=int (input())
+a=n//2
+for i in range(a):
+    print ("x*",end="")
+if(n%2==1) : print ("x")
+
+e)
+for a in range(3):
+    for i in range(7):
+        print ("* ",end="")
+    print("")
+
+f)
+n=int (input())
+m=int (input())
+for a in range(m):
+    for i in range(n):
+        print ("* ",end="")
+    print("")
+
+
