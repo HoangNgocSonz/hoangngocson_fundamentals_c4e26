@@ -1,0 +1,43 @@
+from random import randint
+a=b=c=1
+
+for i in range(3):
+    s=randint(1,3)
+
+    if (s==1)and(a!=5):
+        while True:
+            print ("a n m o p h c i")
+            print ("your answer : ",end=" ")
+            a=input()
+            if (a=="champion"):
+                print ("hura")
+                break
+            else:
+                print (":(")
+
+            a=5
+    if (s==2)and(b!=5):
+        while True:
+            print ("e h x a n g o")
+            print ("your answer : ",end=" ")
+            a=input()
+            if (a=="hexagon"):
+                print ("hura")
+                break
+            else:
+                print (":(")
+
+        b=5
+
+    if (s==3)and(c!=5):
+        while True:
+            print ("t s e u m o i u c l")
+            print ("your answer : ",end=" ")
+            a=input()
+            if (a=="meticulous"):
+                print ("hura")
+                break
+            else:
+                print (":(")
+
+            c=5

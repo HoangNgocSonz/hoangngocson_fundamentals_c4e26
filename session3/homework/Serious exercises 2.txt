@@ -1,0 +1,39 @@
+ar= [10,20,30,40,50,60,70]
+
+
+print ("my name is Son and these is my sheep sizes")
+print (ar)
+print ()
+
+a=max(ar)
+print ("now my biggest sheep has size",a,"let's shear it")
+print ()
+
+
+ar[ar.index(a)]=8
+print ("After shearing, here is my flock: ")
+print (ar)
+print ()
+for j in range(4):
+    print ("month ", j+1)
+    
+
+    for i in range (len(ar)):
+        ar[i] = ar[i]+50
+    print ("one month has passed, now here is my flock: ")
+    print (ar)
+
+
+    a=max(ar)
+    ar[ar.index(a)]=8
+    print ("After shearing, here is my flock: ")
+    print (ar)
+    print ()
+
+
+    print ("",end="\n\n")
+s=0
+for i in range(len(ar)):
+    s=s+ar[i]
+print ("my flock has size i total: ",s)
+print ("i would get ",s," * 2$ = ",s*2,"$")

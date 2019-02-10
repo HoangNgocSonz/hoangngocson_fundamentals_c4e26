@@ -1,0 +1,9 @@
+while True:
+    print ("o a r g d n")
+    print ("your answer : ",end=" ")
+    a=input()
+    if (a=="dragon"):
+        print ("hura")
+        break
+    else:
+        print (":(")

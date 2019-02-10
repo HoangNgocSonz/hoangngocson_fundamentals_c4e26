@@ -1,0 +1,17 @@
+from turtle import*
+
+speed(0)
+a = ['red','blue','brown','yellow','grey']
+lap = 3
+goc=[120,90,72,60,51.43]
+for i in range (5):
+    color (a[i])
+    for j in range (lap):
+        fd(150)
+        left(goc[i])
+    lap +=1
+
+
+    
+
+mainloop()

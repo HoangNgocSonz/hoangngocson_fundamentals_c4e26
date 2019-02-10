@@ -1,0 +1,20 @@
+ar= ['T-shirt', 'Sweater']
+i=0
+while (i<=3):
+
+    if (i==1):
+        new=input("enter new items ")
+        ar.append(new)
+      
+    if (i==2):
+        up=input("update items 2 ?")
+        ar[1]=up
+    
+    if(i==3):
+        ar.pop(2)
+
+    print ("Welcom to our shop, What do you want ?")
+    print ("our items: ",end=" ")
+    print ( *ar,sep=", ")
+    print ("")
+    i+=1

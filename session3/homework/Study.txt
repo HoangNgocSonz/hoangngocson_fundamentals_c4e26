@@ -1,0 +1,4 @@
+1. Nested list is a list that appears as an element in another list
+2. yes
+	eg: list = [1,2,"ss"]
+

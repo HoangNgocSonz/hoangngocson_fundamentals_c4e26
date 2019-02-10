@@ -1,0 +1,16 @@
+from turtle import*
+
+a=['red','blue','brown','yellow','grey']
+x=0
+for i in range (5):
+    goto(x,0)
+    color(a[i],a[i])
+    begin_fill()
+    for j in range(2):
+        fd(50)
+        left(90)
+        fd(100)
+        left(90)
+    end_fill()
+    x+=50
+mainloop()
