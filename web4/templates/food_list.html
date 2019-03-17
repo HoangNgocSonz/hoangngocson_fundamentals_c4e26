@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body style="background-color:rgb(194, 227, 238)">
+    <h1 style="color:rgb(240, 66, 124); text-align: inheritl; font-family: cursive; ">-----Menu-----</h1>
+    <ol>
+    {%for f in f_list%}
+    
+        <li style="color:rgb(255, 133, 20); font-family: cursive; font-size: 35px">{{f.name}}</li>
+        <div style="color:rgb(247, 125, 68); font-family: cursive; font-size: 20px">{{f.price}}</div>
+        <a href="/food/{{f._id}}" style="color:rgb(0, 212, 202); font-family: cursive; font-size: 15px">Detail</a>
+    {% endfor %}
+    </ol>   
+</body>
+
+</html> 
